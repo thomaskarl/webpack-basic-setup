@@ -1,0 +1,17 @@
+/*
+ * Mixins & classes
+*/
+
+@mixin center-flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.center-flex {
+	@include center-flex;
+}
+
+.brand-color {
+	color: $brand-color1;
+}

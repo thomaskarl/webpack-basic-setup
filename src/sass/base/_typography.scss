@@ -1,0 +1,24 @@
+/*
+ * Typography
+*/
+
+body {
+	font-family: $font-text;
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-heading;
+}
+
+p {
+	font-family: $font-text;
+	font-size: 14px;
+}
+
+a {
+	font-family: $font-text;
+	text-decoration: none;
+}
+
+
